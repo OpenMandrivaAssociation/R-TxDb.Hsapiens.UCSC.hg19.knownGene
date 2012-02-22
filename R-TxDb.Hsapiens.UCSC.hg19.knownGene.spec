@@ -11,10 +11,9 @@ URL:              http://bioconductor.org/packages/release/data/annotation/html/
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-GenomicFeatures 
-Requires:         R-GenomicFeatures R-AnnotationDbi 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-GenomicFeatures
-BuildRequires:    R-GenomicFeatures R-AnnotationDbi 
+Requires:         R-GenomicFeatures R-AnnotationDbi
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-GenomicFeatures R-AnnotationDbi
 
 %description
 Contains the Hsapiens_UCSC_hg19_knownGene_TxDb object annotation database
