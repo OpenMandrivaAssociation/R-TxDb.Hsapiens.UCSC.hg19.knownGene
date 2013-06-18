@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.6.2
-Release:          1
+Release:          2
 Summary:          Annotation package for the Hsapiens_UCSC_hg19_knownGene_TxDb object
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
