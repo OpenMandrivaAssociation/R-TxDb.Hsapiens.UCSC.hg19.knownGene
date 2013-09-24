@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.6.2
-Release:          2
+Version:          2.9.2
+Release:          1
 Summary:          Annotation package for the Hsapiens_UCSC_hg19_knownGene_TxDb object
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg19.knownGene_2.9.2.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-GenomicFeatures R-AnnotationDbi
@@ -43,3 +43,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/extdata
 %{rlibdir}/%{packname}/help
+
